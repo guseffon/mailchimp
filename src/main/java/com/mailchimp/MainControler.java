@@ -18,7 +18,8 @@ public class MainControler {
         model.addAttribute("descr" ,descr);
         return "test";
     }
-    public String getTestPage(){
+    @GetMapping
+    public String getTestPage("/test1"){
         return "test";
     }
 }
