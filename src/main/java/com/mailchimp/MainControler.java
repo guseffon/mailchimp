@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainControler {
 
-    @GetMapping("/")
+    @GetMapping("/test")
 
     public String getTestPage(@RequestParam(defaultValue = "some name") String name,
                               @RequestParam(defaultValue = "some descr") String descr, Model model){
